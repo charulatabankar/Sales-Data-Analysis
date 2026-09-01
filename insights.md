@@ -1,60 +1,75 @@
 # 📈 Sales Data Analysis Insights
 
-## 🔍 Data Quality
+## 💰 Total Sales
 
-The dataset was checked for missing values.
-
-- No missing values were found.
-- The dataset is suitable for analysis.
+The total sales generated from all orders were **535,500**.
 
 ---
 
-## 📊 Category Analysis
+## 📊 Category Performance
 
-Sales were grouped by product category to compare category performance.
+| Category | Total Sales |
+|----------|------------:|
+| Electronics | 297,500 |
+| Furniture | 238,000 |
 
-This helps identify which product category generates higher revenue.
-
----
-
-## 🌍 Regional Analysis
-
-Sales were analyzed across different regions.
-
-This helps identify:
-
-- High-performing regions
-- Low-performing regions
-- Potential areas for business growth
+**Insight:** Electronics generated the highest sales and was the best-performing category.
 
 ---
 
-## 🏆 Product Analysis
+## 🌍 Regional Performance
 
-Products were compared based on total sales.
+| Region | Total Sales |
+|--------|------------:|
+| North | 182,500 |
+| West | 178,000 |
+| East | 103,000 |
+| South | 72,000 |
 
-High-performing products can help businesses make decisions about:
+**Insight:** North was the highest-performing region, while South generated the lowest sales.
 
-- Inventory planning
-- Marketing campaigns
-- Product promotion
+---
+
+## 🏆 Product Performance
+
+The top three products were:
+
+1. Laptop — 180,000
+2. Sofa — 135,000
+3. Monitor — 90,000
+
+**Insight:** Laptop generated the highest revenue and is the strongest-performing product.
 
 ---
 
 ## 📅 Monthly Sales Trend
 
-Monthly sales were analyzed to understand how sales change over time.
+| Month | Sales |
+|-------|------:|
+| January 2026 | 137,500 |
+| February 2026 | 28,000 |
+| March 2026 | 93,000 |
+| April 2026 | 80,000 |
+| May 2026 | 95,000 |
+| June 2026 | 42,000 |
+| July 2026 | 60,000 |
 
-Trend analysis helps identify:
-
-- High-sales months
-- Low-sales months
-- Possible sales patterns
+**Insight:** January had the highest sales, while February had the lowest sales.
 
 ---
 
-## 🎯 Conclusion
+## 🎯 Business Recommendations
 
-This project demonstrates how Python and Pandas can be used to analyze raw sales data and generate meaningful business insights.
+- Focus marketing efforts on Electronics products.
+- Increase promotion of Laptop products.
+- Investigate why South has lower sales.
+- Analyze the reasons for the significant drop in sales during February.
+- Use high-performing regions such as North and West as benchmarks for improving other regions.
 
-The analysis supports data-driven decision-making related to products, categories, regions, and sales performance.
+---
+
+## 📝 Conclusion
+
+This project demonstrates the use of Python, Pandas, and Matplotlib to analyze sales data and generate meaningful business insights.
+
+The analysis identified high-performing products, categories, regions, and monthly sales trends to support data-driven business decisions.
